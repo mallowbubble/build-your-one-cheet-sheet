@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 id="tittle">HTML Form Reference</h1>
+    <!--table for tags-->
+    <h2>Form Tags</h2>
+        <table id="tablefortags">
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>&lt;Form&gt;</th>
+                    <td>Used to create an HTML form for user input</td>
+                </tr>
+                <tr>
+                    <th>&lt;Label&gt;</th>
+                    <td>Defines a label for several elements</td>
+                </tr>
+                <tr>
+                    <th>&lt;Input&gt;</th>
+                    <td>Specifies an input field where the user can enter data</td>
+                </tr>
+                <tr>
+                    <th>&lt;Textarea&gt;</th>
+                    <td>Defines a multi-line text input control. is often used in a form, to collect user inputs like comments or reviews</td>
+                </tr>
+                <tr>
+                    <th>&lt;Button&gt;</th>
+                    <td>Defines a clickable button</td>
+                </tr>
+                <tr>
+                    <th>&lt;Select&gt;</th>
+                    <td>Used to create a drop-down list</td>
+                </tr>
+                <tr>
+                    <th>&lt;Option&gt;</th>
+                    <td>Defines an option in a select list. Go inside a &lt;Select&gt;, &lt;Optgroup&gt;, or &lt;Datalist&gt; element</td>
+                </tr>
+                <tr>
+                    <th>&lt;Optgroup&gt;</th>
+                    <td>Is used to group related options in a &lt;Select&gt; element (drop-down list)</td>
+                </tr>
+                <tr>
+                    <th>&lt;Fieldset&gt;</th>
+                    <td>Is used to group related elements in a form. Draws a box around the related elements <br> The &lt;Legend&gt; tag is used to define a caption for the &lt;fieldset&gt; element.
+                    </td>
+                </tr>
+                <tr>
+                    <th>&lt;Output&gt;</th  >
+                    <td>Used to represent the result of a calculation (like one performed by a script)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Form attributes table-->
+    <br>
+    <br>
+    <br>
+
+    <h2>Form Attributes</h2>
+    <!--Form-->
+    <h3>Form</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td><a target="_blank" href="https://www.w3schools.com/tags/tag_form.asp">Attributes</a></td>
+                    <td><a target="_blank" href="https://www.w3schools.com/tags/ref_standardattributes.asp">Global Attributes</a></td>
+                    <td><a target="_blank" href="https://www.w3schools.com/tags/ref_eventattributes.asp">Event Attributes</a></td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    <!--Label-->
+    <h3>Label</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>For</th>
+                    <td>element_id</td>
+                    <td>Specifies the id of the form element the label should be bound to</td>
+                </tr>
+                <tr>
+                    <th>Form</th>
+                    <td>form_id</td>
+                    <td>Specifies which form the label belongs to</td>
+                </tr>
+            </tbody>
+        </table>
+    <!--Input-->
+    <h3>Input</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Type</th>
+                    <td>default type is "text" <br><a target="_blank" href="https://www.w3schools.com/tags/att_input_type.asp">All values</a></td>
+                    <td>specifies the type of input element to display</td>
+                </tr>
+                <tr>
+                    <th>Minlegth</th>
+                    <td>number</td>
+                    <td>Specifies the minimum number of characters required in an &lt;input&gt; element</td>
+                </tr>
+                <tr>
+                    <th>Maxlength</th>
+                    <td>number</td>
+                    <td>Specifies the maximum number of characters allowed in an &lt;input&gt; element</td>
+                </tr>
+                <tr>
+                    <th>Disabled</th>
+                    <td>disabled</td>
+                    <td>Specifies that an &lt;input&gt; element should be disabled</td>
+                </tr>
+                <tr>
+                    <th>Autofocus</th>
+                    <td>autofocus</td>
+                    <td>Specifies that an &lt;input&gt; element should automatically get focus when the page loads</td>
+                </tr>
+                <tr>
+                    <th>Placeholder</th>
+                    <td>text</td>
+                    <td>Specifies a short hint that describes the expected value of an &lt;input&gt; element</td>
+                </tr>
+                <tr>
+                    <td id="other_attributes" colspan="3"><a target="_blank" href="https://www.w3schools.com/tags/tag_input.asp"> Other attributes</a></td>
+                </tr>
+            </tbody>
+        </table>
+     <!--Textarea-->
+    <h3>Textarea</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Name</th>
+                    <td>text</td>
+                    <td>Specifies a name for a text area</td>
+                </tr>
+                <tr>
+                    <th>Cols</th>
+                    <td>number</td>
+                    <td>Specifies the visible width of a text area</td>
+                </tr>
+                <tr>
+                    <th>Wrap</th>
+                    <td>hard <br> soft</td>
+                    <td>Specifies how the text in a text area is to be wrapped when submitted in a form</td>
+                </tr>
+                <tr>
+                    <th>Disabled</th>
+                    <td>disabled</td>
+                    <td>Specifies that a text area should be disabled</td>
+                </tr>
+                <tr>
+                    <th>Required</th>
+                    <td>required</td>
+                    <td>Specifies that a text area is required/must be filled out</td>
+                <tr>
+                    <th>Placeholder</th>
+                    <td>text</td>
+                    <td>Specifies a short hint that describes the expected value of an &lt;input&gt; element</td>
+                </tr>
+                <tr>
+                    <td id="other_attributes" colspan="3"><a target="_blank" href="https://www.w3schools.com/tags/tag_textarea.asp"> Other attributes</a></td>
+                </tr>
+            </tbody>
+        </table>
+     <!--button-->
+    <h3>Button</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Formaction</td>
+                    <td>URL</td>
+                    <td>Specifies where to send the form-data when a form is submitted. Only for type="submit"</td>
+                </tr>
+                <tr>
+                    <th>Type</th>
+                    <td>button <br>reset <br>submit</td>
+                    <td>Specifies the type of button</td>
+                </tr>
+                <tr>
+                    <th>Value</th>
+                    <td>text</td>
+                    <td>Specifies an initial value for the button</td>
+                </tr>
+                <tr>
+                    <td id="other_attributes" colspan="3"><a target="_blank" href="https://www.w3schools.com/tags/tag_button.asp"> Other attributes</a></td>
+                </tr>
+            </tbody>
+        </table>
+     <!--selct-->
+    <h3>Select</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>form</th>
+                    <td>form_id</td>
+                    <td>Defines which form the drop-down list belongs to</td>
+                </tr>
+                <tr>
+                    <th>size</th>
+                    <td>number</td>
+                    <td>Defines the number of visible options in a drop-down list</td>
+                </tr>
+                <tr>
+                    <th>multiple</th>
+                    <td>multiple</td>
+                    <td>Specifies that multiple options can be selected at once</td>
+                </tr>
+                <tr>
+                    <td id="other_attributes" colspan="3"><a target="_blank" href="https://www.w3schools.com/tags/tag_select.asp"> Other attributes</a></td>
+                </tr>
+            </tbody>
+        </table>
+     <!--option-->
+    <h3>Option</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>selected</th>
+                    <td>selected</td>
+                    <td>Specifies that an option should be pre-selected when the page loads</td>
+                </tr>
+                <tr>
+                    <th>label</th>
+                    <td>text</td>
+                    <td>Specifies a shorter label for an option</td>
+                </tr>
+                <tr>
+                    <th>disabled</th>
+                    <td>disabled</td>
+                    <td>Specifies that an option should be disabled</td>
+                </tr>
+                <tr>
+                    <th>value</th>
+                    <td>text</td>
+                    <td>Specifies the value to be sent to a server</td>
+                </tr>
+            </tbody>
+        </table>
+     <!--optgroup-->
+    <h3>Optgroup</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>disabled</th>
+                    <td>disabled</td>
+                    <td>Specifies that an option-group should be disabled</td>
+                </tr>
+                <tr>
+                    <th>label</th>
+                    <td>text</td>
+                    <td>Specifies a label for an option-group</td>
+                </tr>
+            </tbody>
+        </table>
+     <!--fieldset-->
+    <h3>Fieldset</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>disabled</th>
+                    <td>disabled</td>
+                    <td>Specifies that a group of related form elements should be disabled</td>
+                </tr>
+                <tr>
+                    <th>form</th>
+                    <td>form_id</td>
+                    <td>Specifies which form the fieldset belongs to</td>
+                </tr>
+                <tr>
+                    <th>name</th>
+                    <td>text</td>
+                    <td>Specifies a name for the fieldset</td>
+                </tr>
+            </tbody>
+        </table>
+     <!--output-->
+    <h3>Output</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Value</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>for</th>
+                    <td>element_id</td>
+                    <td>Specifies the relationship between the result of the calculation, and the elements used in the calculation</td>
+                </tr>
+                <tr>
+                    <th>fom</th>
+                    <td>form_id</td>
+                    <td>Specifies which form the output element belongs to</td>
+                </tr>
+                <tr>
+                    <th>name</th>
+                    <td>name</td>
+                    <td>Specifies a name for the output element</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
+
+<!--&lt;&gt;-->

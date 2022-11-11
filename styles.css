@@ -77,4 +77,9 @@ a {
     font-weight: bold;
     color: rgb(1, 33, 63);
     letter-spacing: 2;
+    cursor: pointer; 
+}
+
+a:hover {
+    text decoration: none;
 }
